@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+
+.navbar-menu>div>div>li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+   
+}
+
+.navbar-menu>div>div>li:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.btn{
+    width: 150px;
+    background-color:#0F6EFF !important;
+    color:white !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}

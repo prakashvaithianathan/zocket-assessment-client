@@ -1,0 +1,19 @@
+.container{
+    position:relative;
+}
+.logo{
+    margin-bottom: 10px;
+}
+.images{
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    transition: transform .2s ease; 
+}
+
+.images>img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}

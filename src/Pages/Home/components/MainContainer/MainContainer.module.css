@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap');
+
+.main_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.main_image{
+    width: 40%;
+}
+
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    font-style: normal;
+    color: #18191F;
+}
+.sub_title{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height:24px;
+    color: #505050;
+}
+
+.input_box{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    width: 500px;
+    height:40px;
+    border-radius: 10px;
+    /* margin-left: 20px; */
+    background:rgba(211, 211, 211, 0.5);
+}
+.input_box>p{
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    line-height:20px;
+    text-align: center;
+    padding: 10px;
+    fill: Solid;
+    background-color: #0F6EFF;
+    border-radius: 0 10px  10px 0;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 280px;
+}
+.input_box>p:hover{
+    background:#0f6fffd5;
+}
+.input_box>input{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    background:transparent;
+    padding-left: 10px;
+ width: 600px;
+}
+.typoGraphy{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.ellipse1{
+    position: absolute;
+    left: 20px;
+    margin-top: -500px;
+}
+.ellipse2{
+    position: absolute;
+    margin-top: -750px;
+    left: 350px;
+}
+.ellipse3{
+    position:absolute;
+    margin-top: -500px;
+    left: 777px;
+}
+.polygon1{
+    position:absolute;
+    margin-top: -10px;
+    left: 62px;
+}
+.polygon2{
+    position: absolute;
+    margin-top: -300px;
+    left: 802px;
+}
+.danger{
+    color: red;
+
+}
+@media screen and (max-width:1024px){
+    .main_box{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_image{
+        margin-top: 100px;
+        width: 50%;
+    }
+  
+}
+
+@media screen and (max-width:768px){
+.main_box{
+    margin-top: 10px;
+}
+.main_image{
+    width: 80%;
+}
+.typoGraphy{
+    gap: 30px;
+}
+.title{
+    font-size:9vw;
+    line-height: 75px;
+}
+.sub_title{
+    font-size: 3vw;
+    line-height: 30px;
+}
+.input_box{
+    position: relative;
+    width: 60vw;
+}
+.input_box>p{
+    width:400px;
+}
+}
+
+@media screen and (max-width:660px){
+    .title{
+        line-height: 60px;
+    }
+    .input_box{
+        position: relative;
+        width: 70vw;
+    }
+    .input_box>p{
+        font-size: 2vw;
+    }
+    .typoGraphy{
+        gap: 20px;
+    }
+}
+@media screen and (max-width:540px) {
+    .title{
+        line-height: 50px;
+    }
+    .sub_title{
+        line-height:20px
+    }
+    
+}
+@media screen and (max-width:450px){
+    .typoGraphy{
+        gap: 20px;
+    }
+    .title{
+        line-height: 50px;
+    }
+    .sub_title{
+        line-height: 20px;
+    }
+    .input_box{
+        width: 70vw;
+    }
+    .input_box>p{
+        font-size: 10px;
+        letter-spacing:0;
+        /* left: 20px */
+    }
+}
+
+@media screen and (max-width:415px){
+
+    .input_box{
+        width: 90vw;
+    }
+    .input_box>p{
+        position: relative;
+        font-size: 10px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:350px){
+
+    .input_box{
+        width: 95vw;
+    }
+    .input_box>p{
+        position: relative;
+        font-size: 10px;
+        width: 400px;
+    }
+}

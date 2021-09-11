@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap');
+
+
+.container{
+    width: 350px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    box-shadow: 1px 1px 5px grey;
+    gap: 30px;
+    /* margin-top: 50px; */
+    margin: 50px auto;
+    transition: transform .2s ease;
+    border-radius: 5px;
+}
+.container:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.image{
+    width: 36px;
+    margin-bottom: 10px;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height:32px;
+    color: black;
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+}
+.explore{
+    color: #0F6EFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    line-height:16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.explore:hover{
+    color: #0f6fffc9;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 440px){
+.container{
+    width: 300px;
+    padding: 30px 30px;
+}
+}

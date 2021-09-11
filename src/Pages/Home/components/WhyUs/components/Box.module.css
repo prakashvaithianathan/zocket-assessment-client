@@ -1,0 +1,57 @@
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.text_box{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    font-style: normal;
+    color: #18191F;
+    text-align: left;
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: black;
+    margin-top: 20px;
+    width: 90%;
+    
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .image{
+        width: 80%;
+    }
+    .title{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:560px){
+    
+    .title{
+        font-size: 1.5rem;
+    }
+}
+

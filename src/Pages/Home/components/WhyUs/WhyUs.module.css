@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap');
+
+.container{
+    margin-top: 50px;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    font-style: normal;
+    color: #18191F;
+    text-align: center;
+
+}
+
+@media screen and (max-width:768px){
+    .title{
+        font-size: 8vw;
+    }
+}

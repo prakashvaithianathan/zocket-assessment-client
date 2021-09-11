@@ -23,7 +23,7 @@
     padding: 10px 20px;
     border-radius: 20px;
 }
-.btn{
+.btn_submit{
     background-color:blue;
     color: white;
     font-family: 'Roboto',sans-serif;
@@ -34,6 +34,6 @@
     margin: 0 auto;
     transition: transform .2s ease;
 }
-.btn:hover{
+.btn_submit:hover{
     cursor: pointer;
 }

@@ -79,7 +79,7 @@ const [state, setState] = useState({
         value={state.phone}
         onChange={handleChange}
       />
-      <button className="btn"onClick={handleSubmit}>Submit</button>
+      <button className="btn_submit" onClick={handleSubmit}>Submit</button>
      {
        user?<Redirect to='/'></Redirect>:null
      }
